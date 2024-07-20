@@ -1,0 +1,98 @@
+.mostBookedServices-container{
+    overflow: hidden;
+    position: relative;
+}
+.mostBookedServices-head{
+    margin-bottom: 2rem;
+}
+.mostBookedServices-card .secondaryText{
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+    
+}
+.mostBookedServices-card{
+    flex-direction: column;
+}
+.mostBookedServices-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: start;
+    gap: 0.4rem;
+}
+.mostBookedServices-text .serviceName{
+    font-weight:600;
+}
+.mostBookedServices-text :nth-child(2){
+    gap: 0.3rem;
+}
+.imageDiv>img{
+    width: 100%;
+}
+.imageDiv{
+    overflow: hidden;
+}
+.imageDiv img:hover{
+    scale: 1.05;
+    transition: all 300ms ease-in-out;
+    cursor: pointer;
+}
+.mostBookedServices-button button{
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 0.3rem 0.6rem;
+    color: blue;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.mostBookedServices-wrapper .swiper-slide {
+    overflow: hidden;
+    border: none;
+}
+.mostBookedServices-button>:nth-child(1){
+    position:absolute;
+    background-color: #EEEEFF;
+    top: 44%;
+    left: 0.5rem;
+    z-index: 1;
+    opacity: 0.5;
+}
+.rating{
+    padding-top: 0.3rem;
+}
+.totalRating{
+    padding-top: 0.2rem;
+}
+.price{
+    padding-top:0.2rem ;
+}
+.mostBookedServices-button>:nth-child(2){
+    background-color: #EEEEFF;
+    position:absolute;
+    top: 44%;
+    right: 0.5rem;
+    z-index: 1;
+    opacity: 0.5;
+}
+@media (max-width: 640px){
+    .mostBookedServices-head{
+        align-items: center;
+    }
+    .mostBookedServices-button{
+        position: initial;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width: 480px){
+    .mostBookedServices-wrapper{
+        margin: 2rem;
+    }
+} 
+@media (max-width: 480px){
+    .mostBookedServices-wrapper{
+        margin: 1rem;
+    }
+}  

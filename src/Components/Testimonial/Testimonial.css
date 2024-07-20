@@ -1,0 +1,136 @@
+.d{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  align-self: center;
+}
+.wrapper{
+  margin: 3rem;
+}
+.testimonial-wrapper{
+  display: flex;
+  justify-content: flex-end;
+  padding: 3rem;
+  height: 35rem;
+}
+.testimonial-slideImage{
+  width: 14rem;
+  height: 13rem;
+}
+
+  .testimonial-envelope {
+    overflow-x: auto;
+    width: 80%;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;
+  }
+  .testimonial-envelope::-webkit-scrollbar{
+    display: none;
+  }
+  .testimonial-container {
+    display: flex;
+  }
+  
+  .testimonial-carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+    margin-top: 20px;
+    margin: 2rem;
+  }
+  
+  .testimonial-slide {
+    cursor: pointer;
+    margin-top: 1rem;
+    margin: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: calc(9rem);
+    background-image: url('../../images/nkit.avif');
+    width: 20rem;
+    height: 400px;
+    color: black;
+    gap: 0.5rem; 
+    padding: 0 1rem;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  }
+  .testimonial-name{
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  .testimonial-position{
+    font-size: 1rem;
+    color: grey;
+    font-weight: 600;
+  }
+  .testimonialSlideImage-desc{
+    font-weight: 500;
+  }
+  .testimonialSlideImage img{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+  }
+  .testimonialSlideImagered{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    top: 1rem;
+  }
+  .testimonial-slide .blogSlideText{
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 10rem;
+    height: 7rem;
+    background-color: #e9f9ff;
+    position: absolute;
+    bottom: 0;
+    
+  }
+  .nonTransparent{
+    width: 38rem;
+    height: 100%;
+    background-color: black;
+    
+  }
+  .nonTransparent img{
+    width: 100%;
+    height: 100%;
+  }
+  .transparent{
+    height: 100%;
+    width: 26rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5rem;
+    gap: 2rem;
+  }
+  .transparent .testimonial-heading{
+    color: white;
+    font-size: 1.3rem;
+  }
+  .testimonial-largeText{
+    font-size: 2rem;
+    color: white;
+    width: 20rem;
+    font-weight: 700;
+  }
+  .testimonial-description{
+    color: white;
+    width: 25rem;
+  }
+  .testimonial-readMoreButton{
+    padding: 0.2rem 0.3rem;
+    border-radius: 15px;
+    border: 3px solid #07ACF2;
+    color: #07ACF2;
+    background-color: white;
+    font-weight: 600;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  }

@@ -1,0 +1,35 @@
+[
+    {
+      "imageurl":"acAppliance",
+      "name": "Colorful sneakers"
+    },
+    {
+      "imageurl":"acAppliance2",
+          "name": "Sport sneakers"
+    },
+    {
+      "imageurl":"acAppliance3",
+      "name": "iWatch"
+    },
+    {
+      "imageurl":"acAppliance4",
+      "name": "Water Bottle"
+    },
+    {
+      "imageurl":"acAppliance5",
+      "name": "Vans sneakers"
+    },
+    {
+      "imageurl":"acAppliance6",
+      "name": "Coco Noir"
+    },
+    {
+      "imageurl":"acAppliance7",
+      "name": "Sunglasses"
+    },
+    {
+      "imageurl":"acAppliance8",
+      "name": "Dove cream"
+
+    }
+  ]

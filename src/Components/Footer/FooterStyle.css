@@ -1,0 +1,75 @@
+.Footer{
+    background-color: #000;
+    color: #fff;
+    padding: 2rem 0;
+}
+.brand-logo{
+    padding-bottom: 2rem;
+}
+.brand-logo-footer{
+    height: 7rem;
+    width: 12rem;
+    padding: 0.5rem 0;
+}
+.brand-logo p{
+    padding: 0 5rem 0.8rem 0;
+}
+.footer-icons i{
+    padding: 0.7rem;
+    background: #e1e1e1;
+    color: #1249d4;
+    margin: 0 1rem;
+    border-radius: 50%;
+}
+.footer-icons i:hover{
+    background: #05a0e3;
+    color: #fff;
+    transition: 0.6s;
+    cursor: pointer;
+}
+.Footer h5{
+    color: #54b4cc;
+    font-weight: bolder;
+    text-align: start;
+}
+.qLContainer{
+    padding-left: 0;
+    padding-bottom: 1.7rem;
+}
+.qLContainer a{
+    text-decoration: none;
+    padding: 0.35rem 0;
+    color: #fff;
+    font-weight: 500;
+    text-align: start;
+
+}
+.contactDetails{
+    padding-bottom: 1.7rem;
+}
+.contactDetails p{
+    font-weight: 500;
+    text-align: start;
+    padding: 0.35rem 0;
+    color: #fff;
+}
+.contactDetails i{
+    padding-right: 0.5rem;
+}
+.recentPosts p{
+    font-weight: 500;
+    text-align: start;
+    padding: 0.35rem 0;
+    color: #fff;
+}
+.lastFooter{
+    padding: 1rem 0;
+    background-color: #54b4cc;
+}
+.lastFooter p{
+    margin-bottom: 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+}

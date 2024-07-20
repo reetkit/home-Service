@@ -1,0 +1,93 @@
+.massageForMen-container{
+    overflow: hidden;
+    position: relative;
+}
+.massageForMen-head{
+    margin-bottom: 2rem;
+}
+.massageForMen-card{
+    gap: 3rem;
+    border-radius: 10px;
+    max-width: 100%;
+    
+    overflow: hidden;
+}
+.massageForMen-card img:hover{
+    /* border: 0.1rem solid rgb(147, 147, 147); */
+    transform: scale(1.05);
+    /* border-radius: 10px; */
+}
+.massageForMen-card .secondaryText{
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 1rem;
+}
+
+.massageForMen-card>img{
+    width: 100%
+    /* max-width: 15rem; */
+}
+.massageForMen-card>:nth-child(2){
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.massageForMen-card>:nth-child(3){
+    font-size: 1.5em;
+}
+.massageForMen-card>:nth-child(4){
+    font-size: 0.7em;
+    width: 15rem;
+}
+.massageForMen-card:hover{
+    scale: 1.025;
+    cursor: pointer;
+}
+.massageForMen-button button{
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 0.3rem 0.6rem;
+    color: blue;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.swiper-slide {
+    overflow: hidden;
+    border: 0.1rem solid rgb(219, 219, 219);
+    border-radius: 10px
+}
+.swiper-slide:hover{
+    border: 0.1rem solid rgb(143, 143, 143);
+}
+.massageForMen-button>:nth-child(1){
+    position:absolute;
+    background-color: #EEEEFF;
+    top: 44%;
+    left: 0.5rem;
+    z-index: 1;
+    opacity: 0.5;
+}
+.massageForMen-button>:nth-child(2){
+    background-color: #EEEEFF;
+    position:absolute;
+    top: 44%;
+    right: 0.5rem;
+    z-index: 1;
+    opacity: 0.5;
+}
+@media (max-width: 640px){
+    .massageForMen-head{
+        align-items: center;
+    }
+    .massageForMen-button{
+        position: initial;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width: 480px){
+    .massageForMen-wrapper{
+        margin: 2rem;
+    }
+}

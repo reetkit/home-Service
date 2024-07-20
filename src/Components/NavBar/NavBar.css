@@ -1,0 +1,129 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Titillium Web", sans-serif;
+}
+
+:root {
+	--mainColor: #29335c;
+	--mainColorLight: #5767aa;
+	--secondaryColor: #db2b39;
+	--textColor: #eee;
+}
+.nav-container{
+	display: flex;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 80px;
+	padding: 0 2rem;
+	background-color: white;
+	color: black;
+}
+
+nav a {
+	margin: 0 1rem;
+	color: black;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: var(--secondaryColor);
+}
+
+header .nav-btn {
+	padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: black;
+	visibility: hidden;
+	opacity: 0;
+	font-size: 1.8rem;
+}
+.brand-logo-navBar{
+    width: 160px;
+} 
+
+header div,
+nav {
+	display: flex;
+	align-items: center;
+}
+.loginButton{
+    background-color: rgb(75, 210, 244);
+    color: white;
+    padding: 0.8rem;
+    border-radius: 30rem;
+    border-style: none;
+    font-weight: 500;
+}
+.loginButton:hover{
+	box-shadow: 5px 5px #c4e4f8;
+}
+a:link{
+	text-decoration: none;
+}
+a:visited{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+a:active{
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 1024px) {
+	header .nav-btn {
+		visibility: visible;
+		opacity: 1;
+	}
+
+	header nav {
+		position: fixed;
+		padding: 6rem 4rem 2rem;
+		top: 0;
+		right: 0;
+		height: 100%;
+		width: 50%;
+		z-index: 999;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: flex-start;
+		gap: 1.5rem;
+		background-color: var(--mainColor);
+		backdrop-filter: blur(10px);
+		background-color:  rgba(255, 255, 255, 0.203);
+		transition: 1s; 
+		transform: translateX(150vh);
+	}
+
+	header .responsive_nav {
+		transform: none
+	}
+
+	.nav-close-btn {
+		position: absolute;
+		top: 2rem;
+		right: 2rem;
+	}
+
+	nav a {
+		font-size: 1.5rem;
+	}
+}
+
+
+@media only screen and (max-width:600px){
+    header nav{
+        width: 100%;
+    }
+
+}

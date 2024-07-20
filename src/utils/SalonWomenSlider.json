@@ -1,0 +1,29 @@
+[
+    {
+        "desc":"Waxing",
+        "swimage": "salon-women1"
+    },
+    {
+        "desc":"Pedicure",
+        "swimage": "salon-women2"
+    },
+    {
+        "desc":"Facial & Cleanup",
+        "swimage": "salon-women3"
+    },
+    {
+        "desc":"Manicure",
+        "swimage": "salon-women4"
+    },
+    {
+        "desc":"Threading & face wax",
+        "swimage": "salon-women5"
+    },
+    {
+        "desc":"Bleach & detan",
+        "swimage": "salon-women6"
+    },
+    {   "desc":"Haircare",
+        "swimage": "salon-women7"
+    }
+]

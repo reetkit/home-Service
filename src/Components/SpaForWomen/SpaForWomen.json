@@ -1,0 +1,18 @@
+[
+    {
+        "desc":"Waxing",
+        "swimage": "spaForWomen2"
+    },
+    {
+        "desc":"Pedicure",
+        "swimage": "spaForWomen"
+    },
+    {
+        "desc":"Facial & Cleanup",
+        "swimage": "spaForWomen3"
+    },
+    {
+        "desc":"Manicure",
+        "swimage": "spaForWomen4"
+    }
+]
